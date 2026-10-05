@@ -4,12 +4,12 @@ const About = () => {
   return (
     <>
 
-    <div id='about'>
+    <div id='about ' className='mt-[150px]'>
 
 
-       <div className='mt-[150px]'>
+     <div className=' container'>
 
-   <div className="container">
+          <div className="">
 
     <h1 className="text-6xl font-semibold font-mon">
     
@@ -24,20 +24,22 @@ const About = () => {
       </div>
     </div>
 
-    <div className="flex justify-center">
-      <button className="  cursor-pointer px-12 py-5 bg-black text-white font-medium rounded-md transition-all duration-300 hover:bg-[#2373F4] hover:text-black hover:scale-105">
+     <div className="mt-5">
+      <button className="  cursor-pointer px-15 py-5 text-[20px] bg-black text-white font-normal font-mon rounded-md transition-all duration-300 hover:bg-[#2373F4] hover:text-black hover:font-mon hover:scale-105">
         Start Now
       </button>
     </div>
 
-  </div>
+            </div>
+
+  
+
+  <div></div>
 
 
 
 
-
-
-       </div>
+    </div>
 
 
 
