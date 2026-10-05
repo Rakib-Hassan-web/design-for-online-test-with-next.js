@@ -31,7 +31,9 @@ const Banner = () => {
     </div>
 
     <div className="flex justify-center">
-    
+      <button className="  cursor-pointer px-12 py-5 bg-black text-white font-medium rounded-md transition-all duration-300 hover:bg-[#2373F4] hover:text-black hover:scale-105">
+        Start Now
+      </button>
     </div>
 
   </div>
