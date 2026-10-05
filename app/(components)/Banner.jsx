@@ -4,8 +4,8 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <>
-<div>
- <div className="relative w-full">
+<div id='about'>
+      <div className="relative w-full">
 
   <Image
     src="/bannerIMG.avif"
@@ -38,7 +38,7 @@ const Banner = () => {
 
   </div>
 
-</div>
+       </div>
 </div>
 
 
