@@ -4,7 +4,7 @@ const DesignPart = () => {
   return (
     <>
 
-    <div id='Web_design' className='mt-[150px] mb-200'>
+    <div id='Web_design' className='mt-[150px] '>
 
 
         <div className='container flex justify-between items-center'>
