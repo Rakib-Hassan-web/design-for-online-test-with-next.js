@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from "next/image";
+
 
 const About = () => {
   return (
@@ -7,7 +9,7 @@ const About = () => {
     <div id='about ' className='mt-[150px]'>
 
 
-     <div className=' container'>
+     <div className=' container flex justify-between items-center'>
 
           <div className="">
 
@@ -34,7 +36,16 @@ const About = () => {
 
   
 
-  <div></div>
+           <div>
+             <Image
+                src="/aboutIMG.png"
+                alt="Hero Image"
+                width={800}
+                height={200}
+               
+              />
+
+          </div>
 
 
 
