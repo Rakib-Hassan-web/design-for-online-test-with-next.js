@@ -5,6 +5,7 @@ import { GiAbstract096 } from 'react-icons/gi'
 const Navbar = () => {
   return (
     <>
+    
     <nav id='Navbar' className='py-6 ' >
        
      <div className='container flex items-center justify-between'>
